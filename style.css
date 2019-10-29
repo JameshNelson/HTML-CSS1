@@ -3,6 +3,12 @@
 }
 
 h1 {
+    font-size: 25px;
+    font-family: Arial;
+    font-weight: 1000;
+    line-height: 20px; 
+    letter-spacing: 3px; 
+    text-align: center; 
     color: tomato; 
 }
 
@@ -29,8 +35,22 @@ div {
 }
 
 #box-sizing-demo{
-    height: 50px;
-    width: 50px; 
+    height: 50vh;
+    width: 50vw; 
     border: 5px solid black; 
     box-sizing: border-box; 
+    background-image: url("https://i.kym-cdn.com/entries/icons/facebook/000/003/047/omg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+}
+
+#percent-demo {
+    height: 50%;
+    width: 50%; 
+    border: 1px solid black; 
+}
+
+#float-demo {
+    float: right; 
 }
