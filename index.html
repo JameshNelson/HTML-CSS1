@@ -8,11 +8,23 @@
         <meta name="keywords" content= "cool website, best, awesome">
         <meta name="author" content="Nelson">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <style>
+        p{
+            /* color: red;  */
+        }
+        /* This is a comment in css */
+        </style>
         <title>SUPER COOL WEBSITE!</title>
+
     </head>
     <body>
         <!--body tag contains our websites content-->
-        <header>
+
+        <div></div>
+        <div id="box-sizing-demo"></div>
+        <header style="background-color: blue; ">
             Header Element
             <nav>
                 <a>Super Cool Link</a><br>
@@ -21,13 +33,14 @@
             </nav>
 
         </header>
-        <h1>Super cool heading one</h1>
-        <h2>super cool heading two</h2>
-        <h3>This one is not so cool</h3>
-        <h4>This one is ok</h4>
-        <h5>ugggghhhh why are we still doing this</h5>
+        <h1 class="heading-class">Super cool heading one</h1>
+        <h2 class="heading-class">super cool heading two</h2>
+        <h3 class="heading-class">This one is not so cool</h3>
+        <h4 class="heading-class">This one is ok</h4>
+        <h5 id="heading-id">ugggghhhh why are we still doing this</h5>
+        <h5>Heading five, no id</h5>
         <h6>I'm ok with this</h6>
-        <div>I AM THE CONTENT IN THE DIV</div>
+        <div><h6>I am the content in the div</h6></div>
         <section>
             <h6>I are section element</h6>
             <p>I'm a super cool paragraph tag, and I'm a super cool <span>span tag</span></p>

@@ -1,0 +1,36 @@
+*{
+    background-color: mediumaquamarine
+}
+
+h1 {
+    color: tomato; 
+}
+
+.heading-class{
+    color: red; 
+}
+
+#heading-id{
+    color: blue; 
+}
+
+div h6{
+    color: green; 
+}
+
+section + h6{
+    color: orange;
+}
+
+div {
+    height: 50px;
+    width: 50px; 
+    border: 5px solid black; 
+}
+
+#box-sizing-demo{
+    height: 50px;
+    width: 50px; 
+    border: 5px solid black; 
+    box-sizing: border-box; 
+}
